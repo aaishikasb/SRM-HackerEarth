@@ -1,3 +1,9 @@
+// Preloader Script
+$(window).load(function() {
+	$(".loader").delay(2000).fadeOut("slow");
+  $("#overlayer").delay(2000).fadeOut("slow");
+})
+
 // values to keep track of the number of letters typed, which quote to use. etc. Don't change these values.
 var i = 0,
     a = 0,
